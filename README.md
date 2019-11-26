@@ -14,19 +14,19 @@ My social graph pulled from a group of developers within an organization and loo
 languages and repositories that each developer uses changes over time. 
 To get this infomration, I used pyGithub to gather all of the repository information of an organizations members. 
 
-![](https://github.com/engelsj/swe-dev-task2/blob/dev/Images/Initial_DF.png)
+![](https://github.com/engelsj/swe-dev-task2/blob/master/Images/Initial_DF.png)
 
 Then I found the first year that each developer started interacting with repos within the organization and shifted the year of their repositories was made to represent what year of experience it was made in. 
 
-![](https://github.com/engelsj/swe-dev-task2/blob/dev/Images/Shifted_Year.png)
+![](https://github.com/engelsj/swe-dev-task2/blob/master/Images/Shifted_Year.png)
 
 I segmented all of the repos into their respected year of development and grouped by language while averaging the number of collaborators and size of the repo. 
 
-![](https://github.com/engelsj/swe-dev-task2/blob/dev/Images/Groupedby_Year.png)
+![](https://github.com/engelsj/swe-dev-task2/blob/master/Images/Groupedby_Year.png)
 
 I then grouped each year graph back together to create a large dataframe. 
 
-![](https://github.com/engelsj/swe-dev-task2/blob/dev/Images/Grouped_By%20Languages_and_Year.png)
+![](https://github.com/engelsj/swe-dev-task2/blob/master/Images/Grouped_By%20Languages_and_Year.png)
 
 I followed this [tutorial](https://plot.ly/python/v3/animations/) and created an animated moving bubble chart in plotly where each year was graphed and animated. Finally I recorded and exported my graph as a gif so that it could be displayed within this readme.
 
