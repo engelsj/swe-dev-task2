@@ -1,6 +1,8 @@
 # swe-dev-task2
 Jamison Engels - 17300599 
+
 CS3012 - Software Engineering - Social Graph
+
 [Inital Commit for GitHub Access Deadline](https://github.com/engelsj/swe-dev-task2/commit/d65b5500c0664b2df87cbe48a23395e926ae7c2d)
 
 ![](Graph_Visualization.gif)
@@ -11,15 +13,15 @@ This social graph was created via the GitHub API through the python library pyGi
 My social graph pulled from a group of developers within an organization and looked to see how the
 languages and repositories that each developer uses changes over time. 
 To get this infomration, I used pyGithub to gather all of the repository information of an organizations members. 
-![](Graph_Visualization.gif)
-
-Then I found the first year that each developer started interacting with repos within the organization and shifted the year of their repositories was made to represent what year of experience it was made in. 
 
 ![](https://github.com/engelsj/swe-dev-task2/blob/dev/Images/Initial_DF.png)
 
-I segmented all of the repos into their respected year of development and grouped by language while averaging the number of collaborators and size of the repo. 
+Then I found the first year that each developer started interacting with repos within the organization and shifted the year of their repositories was made to represent what year of experience it was made in. 
 
 ![](https://github.com/engelsj/swe-dev-task2/blob/dev/Images/Shifted_Year.png)
+
+I segmented all of the repos into their respected year of development and grouped by language while averaging the number of collaborators and size of the repo. 
+
 ![](https://github.com/engelsj/swe-dev-task2/blob/dev/Images/Groupedby_Year.png)
 
 I then grouped each year graph back together to create a large dataframe. 
